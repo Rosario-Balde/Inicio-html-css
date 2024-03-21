@@ -1,0 +1,236 @@
+
+ul{
+    list-style-type: none;
+}
+
+.bttn-input{
+    border: 0;
+    border-radius: 10vmax;
+    padding: 1rem;
+    margin-left: 80%;
+    margin-top: -110px;
+    background: linear-gradient(#000000, #753131, #000000);
+    box-shadow: 0 0 1rem #26c1bc;
+}
+
+input{
+    background-color: rgb(235, 235, 228);
+    border: 0;
+    border-radius: 10vmax;
+    padding: 1rem 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn-buscar{
+    background: linear-gradient(#000000, #753131, #000000);
+    margin:  0 1010px;
+    padding: .7rem 1rem;
+    border: 0;
+    border-radius: 10vmax;
+    box-shadow: #26c1bc 0 0 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+
+button{
+    color: rgb(0, 0, 0);
+    background: linear-gradient( #0f0f0f 10%,  #26c1bc 50%, #0f0f0f 100%);
+    border: 0;
+    border-radius: 0;
+}
+body{
+    background-color: #000000;
+    min-height: 100vh;
+
+  }
+  header{
+    padding-block: 1rem; /*hace un espacio arriba y abajo*/
+    box-shadow: 0 0 2rem #fed52f;
+    width: 1250px;
+    margin: auto;
+  }
+
+  .btn-header:hover{
+    transform: scale(1.1);
+    box-shadow: 0, 0 2rem rgb(45, 115, 165);
+  }
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    padding-inline:2rem;
+    margin: 0 auto;
+
+
+}
+.nav-list{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+.btn-header{
+padding: .9rem;
+border-radius: 1vmax;
+cursor: pointer;
+text-transform: uppercase;
+font-weight: 1000;
+box-shadow: 0 0 .6rem #fed52f;
+ transition: 0.5s;
+}
+
+
+main{
+    background-color: #000000;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 1rem#fed52f;
+}
+
+
+.pokemon-imagen img{
+    width: 100%;
+    max-width: 9rem;
+}
+.pokemon-todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.pokemon {
+    border-radius: 1rem;
+    background: linear-gradient( 90deg,#151515,  #000000, #161616 );
+    padding-block: 1rem;
+    text-transform: uppercase;
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    box-shadow: 0 0  .5rem rgb(221, 223, 225);
+}
+.cokemon-id-back{
+    position: absolute;
+    top: -1rem;
+left: 50%;
+transform: translatex(-50%);
+font-size: 6REM;
+font-weight: 900;
+color: #6c9c9e31;
+z-index: -1;
+}
+
+.pokemon-imagen {
+    padding-inline: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-info {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-inline: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.nombre-contenedor{
+    display: flex;
+    align-items: center;
+    column-gap: .5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon-id {
+    background: linear-gradient( #0f0f0f 10%,  #26c1bc 50%, #0f0f0f 100%);
+    padding: .25rem .5rem;
+    border-radius: 100vmax;
+    font-size: .90rem;
+    font-weight: 900rem;
+}
+
+.pokemon-nombre{
+    background-color: rgb(84, 84, 78);
+    font-size: 1.5rem;
+    border-radius: 50vmax;
+    padding: 0 1rem;
+   
+
+}
+
+.pokemon-stats {
+    display: flex;
+    gap: 4rem;
+    font-size: .90rem;
+    border-radius: 100vmax ;
+    background-color: rgb(44, 44, 41);;
+    margin-bottom: 10px;
+    box-shadow: 0 0 1rem rgb(45, 115, 165);;
+}
+
+.tipo1 {
+    background: linear-gradient( #1b1b1b 10%,  #26c1bc 50%, #0f0f0f 100%);
+    border-radius: 100vmax;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 1.2rem;
+ 
+
+}
+
+.tipo2{
+    background: linear-gradient( #0f0f0f 10%,  #26c1bc 50%, #0f0f0f 100%);
+    border-radius: 100vmax;
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 1.2rem;
+
+}
+
+.stat1{
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 220, 13);
+    border-radius: 100vmax;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: .30rem .6rem;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    box-shadow: 0  0 1rem #000000;
+}
+
+.stat2 {
+    color: white;
+    background-color:  rgb(27, 83, 123);
+    border-radius: 100vmax;
+    font-size: 1rem;
+    font-weight: 100;
+    padding: .25rem .6rem;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 1rem;
+    box-shadow: 0  0 1rem #000000;
+}
+
+img{
+    width: 100%;
+    max-width: 20rem;
+}
+
+
